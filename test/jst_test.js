@@ -10,7 +10,7 @@ function errorHandler(err){
 (new Jst).run(
     [{
         path: 'foo/bar-jst.html',
-        contents: '<%=foo%>'
+        contents: '<%-foo%>'
     }], // inputs
     {
         wrapper: 'kmd'

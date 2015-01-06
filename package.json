@@ -1,6 +1,6 @@
 {
   "name": "task-jst",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "main": "lib/jst.js",
   "description": "Compile templates to a JST file.",
   "homepage": "https://github.com/taskjs/task-jst",
