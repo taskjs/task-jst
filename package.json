@@ -1,0 +1,33 @@
+{
+  "name": "task-jst",
+  "version": "0.1.0",
+  "main": "lib/jst.js",
+  "description": "Compile templates to a JST file.",
+  "homepage": "https://github.com/taskjs/task-jst",
+  "bugs": "https://github.com/taskjs/task-jst/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-jst"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "jst"
+  ],
+  "dependencies": {
+    "execution": "^0.1.1",
+    "jstx": "^0.1.1",
+    "record": "^0.2.0"
+  },
+  "scripts": {
+    "test": "node test/jst_test"
+  }
+}
