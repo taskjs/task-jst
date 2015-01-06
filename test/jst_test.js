@@ -9,10 +9,13 @@ function errorHandler(err){
 
 (new Jst).run(
     [{
+        path: 'foo/bar-jst.html',
         contents: '<%=foo%>'
     }], // inputs
-    {}, // options
+    {
+        wrapper: 'kmd'
+    }, // options
     console // logger
 ).then(function(inputs){
-
+    console.log(inputs[0].toString())
 }).catch(errorHandler)

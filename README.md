@@ -25,6 +25,13 @@ By default, uses ERB-style template delimiters, change the following template se
 }
 ```
 
+#### options.namespace
+Type: `string`
+
+#### options.wrapper
+Type: `select`
+Options: `["amd", "kmd"]`
+
 ## Release History
 * 2015-01-06 0.1.0 Initial release.
 
